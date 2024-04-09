@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
-
 import React from 'react';
+
+import './App.css';
 
 const API_URL = 'http://www.omdbapi.com?apikey=c032e2d7';
 
@@ -17,7 +18,12 @@ const App = () => {
   }, []);
 
   return(
-    <h1>App</h1>
+    <div className="app">
+      <h1>Cinema World</h1>
+      <input 
+        placeholder='Search for Movies'
+      />
+    </div>
   );
 }
 
