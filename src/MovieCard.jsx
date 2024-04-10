@@ -4,10 +4,6 @@ const MovieCard = ({ movie }) => {
   return (
     <div className="movie">
       <div>
-        <p>{movie.Year}</p>
-      </div>
-
-      <div>
         <img
           src={
             movie.Poster !== "N/A"
